@@ -1,7 +1,4 @@
-# Gamehost
-
-
-
+﻿# Gamehost
 
 Gaming-Hosting 
 
