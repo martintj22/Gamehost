@@ -36,34 +36,7 @@ include_once("header.php");
 
 </section>
 
-<details>
-    <!--Defines additional details that the user can view or hide-->
 
-    <div id="detailLeft">
-        <!--We need a picture from the database...-->
-    </div>
-
-    <div id="detailMiddle">
-        <!--We need a picture from the database...-->
-    </div>
-
-    <div id="detailRight">
-        <!--We need a picture from the database...-->
-    </div>
-
-    <div id="detailTitleLeft">
-        <!--We need a title from the database...-->
-    </div>
-
-    <div id="detailTitleMiddle">
-        <!--We need a title from the database...-->
-    </div>
-
-    <div id="detailTitleRight">
-        <!--We need a title from the database...-->
-    </div>
-
-</details>
 
 
 

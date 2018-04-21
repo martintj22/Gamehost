@@ -1,10 +1,7 @@
-<?php
-require_once("sql/conn.php");
-?>
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
         <title>NoobNice Serverhosting</title>
     </head>
 
@@ -19,6 +16,7 @@ require_once("sql/conn.php");
             <div id="logo">
                 <!--We need a logo from the database...-->
                 <!--Test logo below...-->
+				<h3>Logo here <h3>
             </div>
 
             <div id="trustPilot">
@@ -42,7 +40,19 @@ require_once("sql/conn.php");
 				<h2>Log ind</h2>
 				<a class="close" href="#">&times;</a>
 				<div class="content">
-					Thank to pop me out of that button, but now i'm done so you can close this window.
+				<div class="container">
+				<label for="uname"><b>Brugernavn</b></label>
+				<input type="text" placeholder="Brugernavn" name="uname" required>
+
+				<label for="psw"><b>Adgangskode</b></label>
+				<input type="password" placeholder="Adgangskode" name="psw" required>
+        
+				<button type="submit">Log ind</button>
+				<label>
+					<input type="checkbox" checked="checked" name="remember"> Husk mig
+			    </label>
+	    </div> 	 <!--Login popup box ends here-->
+
 				</div>
 			</div>
 		</div>
