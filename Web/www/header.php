@@ -4,7 +4,7 @@ require_once("sql/conn.php");
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="theme.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>NoobNice Serverhosting</title>
     </head>
 
