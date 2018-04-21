@@ -33,6 +33,21 @@ require_once("sql/conn.php");
             
             <div class="login">
                 <!--Login system goes here-->
-            </div>
+
+				<!--Login popup buttton-->
+			<a class="button" href="#popup1">Log ind</a>
+			    <!--Login popup box-->
+		<div id="popup1" class="overlay">
+			<div class="popup">
+				<h2>Log ind</h2>
+				<a class="close" href="#">&times;</a>
+				<div class="content">
+					Thank to pop me out of that button, but now i'm done so you can close this window.
+				</div>
+			</div>
+		</div>
+
+
+    </div>
 
         </nav> 
