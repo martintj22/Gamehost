@@ -8,6 +8,7 @@ include_once("header.php");
 
     <div id="sectionTitle">
         <!-- A section title from the database goes here-->
+		<h1> A title form the database goes here </h1>
     </div>
 
     <div id="popularServices">
@@ -30,6 +31,7 @@ include_once("header.php");
 
     <div id="showAll">
         <!--This is a button, that hides popularServices and shows all services we offer.-->
+		<h1> Se flere </h1>
     </div>
 
     <!--More modules can be added down below-->

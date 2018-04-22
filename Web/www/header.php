@@ -16,12 +16,13 @@
             <div id="logo">
                 <!--We need a logo from the database...-->
                 <!--Test logo below...-->
-				<h3>Logo here <h3>
+				<h3>Logo from the db here <h3>
             </div>
 
             <div id="trustPilot">
                 <!--We need to registre at dk.trustpilot.com -->
                 <!--Test image below...-->
+				<h1> trustpilot </h1>
             </div>
 
         </header>
@@ -29,6 +30,12 @@
         <nav>
             <!--Navigation goes here-->  
             
+			<div class="topnav">
+				 <a class="active" href="#home">Nyheder</a>
+				 <a href="#news">Gaming</a>
+				 <a href="#contact">Webhost</a>
+			</div>
+
             <div class="login">
                 <!--Login system goes here-->
 
