@@ -52,7 +52,6 @@ session_start();
 
 				<!--Login popup buttton-->
 				<?php if(!isset($_SESSION['username'])) { ?>
-<<<<<<< HEAD
 				
 				<a class="button" href="#popup1">Log ind</a>
 				<?php } else {
@@ -60,12 +59,6 @@ session_start();
 				<a class="button" href="user/profile.php"> Min Konto </a>
 				<a class="button" href="login/logout.php">Log ud</a>
 				
-=======
-				<a class="button" href="#popup1">Log ind</a>
-				<?php } else {
-					?>
-				<a class="button" href="login/logout.php">Log ud</a>
->>>>>>> 000fe7a147308ab3905cb6628e8577daa5e41e87
 				<?php } ?>
 			    <!--Login popup box-->
 		<div id="popup1" class="overlay">
