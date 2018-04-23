@@ -48,6 +48,7 @@
 				<a class="close" href="#">&times;</a>
 				<div class="content">
 				<div class="container">
+				<form action="login/login.php" method="POST">
 				<label for="uname"><b>Brugernavn</b></label>
 				<input type="text" placeholder="Brugernavn" name="uname" required>
 
@@ -58,6 +59,7 @@
 				<label>
 					<input type="checkbox" checked="checked" name="remember"> Husk mig
 			    </label>
+				</form>
 	    </div> 	 <!--Login popup box ends here-->
 
 				</div>
