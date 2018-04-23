@@ -2,7 +2,7 @@
 $sqlIp = "127.0.0.1";
 $sqlUsername = "root";
 $sqlPassword = "";
-$sqlDatabase = "";
+$sqlDatabase = "web";
 
 $conn = new mysqli($sqlIp,$sqlUsername,$sqlPassword,$sqlDatabase);
 
