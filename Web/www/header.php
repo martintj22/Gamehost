@@ -50,15 +50,47 @@
 				<div class="container">
 				<form action="login/login.php" method="POST">
 				<label for="uname"><b>Brugernavn</b></label>
-				<input type="text" placeholder="Brugernavn" name="uname" required>
+				<input type="text" placeholder=	"Brugernavn" name="uname" required>
+
 
 				<label for="psw"><b>Adgangskode</b></label>
-				<input type="password" placeholder="Adgangskode" name="psw" required>
-        
-				<button type="submit">Log ind</button>
+				<input type="password" placeholder="Adgangskode" name="psw" required>		
 				<label>
 					<input type="checkbox" checked="checked" name="remember"> Husk mig
-			    </label>
+			    </label>			
+				<button type="submit">Log ind</button>
+
+<br> 
+				<h1> Opret bruger </h1>
+
+
+		<details>
+			 <summary>Opret bruger</summary>
+
+
+			   <label for="Fornavn"><b>Fornavn</b></label> 
+			   <input type="text" placeholder="Fornavn" name="Fornavn" required> 
+			   <br>
+			    <label for="Efternavn"><b>Efternavn</b></label> 
+			   <input type="text" placeholder="Efternavn" name="Fornavn" required> 
+			   <br>
+			   <label for="Brugernavn"><b>Brugernavn</b></label> 
+			   <input type="text" placeholder="Burgernavn" name="Brugernavn" required> 
+			   <br>
+			   <label for="email"><b>Email</b></label> 
+			   <input type="text" placeholder="Enter Email" name="email" required> 
+			   <br>
+			   <label for="psw"><b>Password</b></label> 
+			   <input type="password" placeholder="Enter Password" name="psw" required> <br> 
+			   <label for="psw-repeat"><b>Repeat Password</b></label>
+			   <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			   <br>
+			   <button type="submit" class="registerbtn">Register</button>
+		</details>
+				
+
+
+			
 				</form>
 	    </div> 	 <!--Login popup box ends here-->
 

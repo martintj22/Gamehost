@@ -175,7 +175,7 @@ h1 {
 
 section {
     width: 100%;
-    height: 80%;
+    height: 75%;
     float: left;
     background: #403B4A; /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #E7E9BB, #403B4A); /* Chrome 10-25, Safari 5.1-6 */
