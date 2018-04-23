@@ -192,25 +192,45 @@ section {
 
 #popularServices {
    height: 280px;
-   margin-left: 10%;
-   margin-right: 10%;
-
+   margin-left: 18%;
+   margin-bottom: 5%;
 }
 
 .service {
-    width: 32%;
+    width: 25%;
     height: 250px;
-    background-color: black;
     float: left;
     border: solid;
     border-color: white;
+    background: orange;
+    transition: all 0.5s ease;
+}
+
+.servicea {
+    width: 25%;
+    height: 250px;
+    float: left;
+    border: solid;
+    border-color: white;
+    background: orange;
+    transition: all 0.5s ease;
+    visibility: unset;
+}
+
+.service:hover {
+    width: 31%;
+    height: 280px;
+    float: left;
+    border: solid;
+    border-color: green;
+    background: orange;
+    transition: all 0.5s ease;
 }
 
 .detail {
     height: 250px;
     width: 33.3%;
     background-color: grey;
-    position: ce;
     float: left;
 }
 
@@ -223,9 +243,31 @@ section {
     margin-left: 45%;
 }
 
+
+
+#allService {
+    transition: all 0.5s ease;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    margin-left: 18%;
+    width: 82%;
+}
+
+detailFunc {
+    
+}
+
+#showDetail {
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
 footer {
     width: 100%;
     height: 8%;
     float: left;
     background-color: black;
 }
+

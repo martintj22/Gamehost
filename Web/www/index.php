@@ -19,23 +19,59 @@ include_once("header.php");
 
         <div class="service">
             <!--We need a picture from the database...-->
+		<img src="https://www.techtalk.gfi.com/wp-content/uploads/2010/05/mail-servers.jpg" alt="Smiley face" width="100%" height="250px">
+
+      </div>
+
+		<div class="service">
+            <!--We need a picture from the database...-->
+			<img src="https://www.techtalk.gfi.com/wp-content/uploads/2010/05/mail-servers.jpg" alt="Smiley face" width="100%" height="250px">
+
         </div>
 
 		<div class="service">
             <!--We need a picture from the database...-->
-        </div>
+			<img src="https://www.techtalk.gfi.com/wp-content/uploads/2010/05/mail-servers.jpg" alt="Smiley face" width="100%" height="250px">
 
-		<div class="service">
-            <!--We need a picture from the database...-->
         </div>
 
 
     </div> <!--popularServices ends here...-->
 
+		<div id="allService">
+            <!--We need a picture from the database...-->
+		
+		<div class="service">
+            <!--We need a picture from the database...-->
+			<img src="https://www.techtalk.gfi.com/wp-content/uploads/2010/05/mail-servers.jpg" alt="arma" width="100%" height="250px">
+
+        </div>
+
+
+		<div class="service">
+            <!--We need a picture from the database...-->
+			<img src="https://www.techtalk.gfi.com/wp-content/uploads/2010/05/mail-servers.jpg" alt="csgo" width="100%" height="250px">
+
+        </div>
+
+		<div class="service">
+            <!--We need a picture from the database...-->
+			<img src="https://www.techtalk.gfi.com/wp-content/uploads/2010/05/mail-servers.jpg" alt="gta" width="100%" height="250px">
+
+        </div>
+        </div>
+
+	
+ <!---
     <div id="showAll">
-        <!--This is a button, that hides popularServices and shows all services we offer.-->
-		<h1> Se flere </h1>
+		<button onclick="showAll()">Se flere</button>
     </div>
+	<div id="showDetail">
+		<button onclick="showDetail()">Se mest Populær</button>
+    </div>
+  -->
+
+	<div id="detailFunc">
 
 	<div class="detail">
 	<h1> Why us </h1>
@@ -50,11 +86,10 @@ include_once("header.php");
 		<h1> Why us </h1>
 
 	</div>
-
+</div>
     <!--More modules can be added down below-->
 
 </section>
-
 
 
 
