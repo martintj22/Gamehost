@@ -4,10 +4,10 @@ require_once("../header.php");
 if(!isset($_SESSION['userLevel'])) header("Location: ../index.php");
 if($_SESSION['userLevel'] < 1) header("Location: ../index.php");
 
-$sql = "SELECT * FROM ´frontpage´ ORDER BY ´id´ DESC LIMIT 1";
+$sql = "SELECT * FROM frontpage ORDER BY id DESC LIMIT 1";
 $result = mysqli_query($conn,$sql);
-while ($row = mysqli_fetc_assoc($result)) {
-
+while ($row = mysqli_fetch_assoc($result)) {
+    
 }
 
 ?>
@@ -29,3 +29,5 @@ while ($row = mysqli_fetc_assoc($result)) {
 <input type="text" name="centerImage" value="<?php echo $row['centerImagePath']?>">
 <h1> Højre billede sti </h1><br>
 <input type="text" name="rightImage" value="<?php echo $row['rightImagePath']?>">
+<input type="submit" name="submit" value="submit">
+</form>
