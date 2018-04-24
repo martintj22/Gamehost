@@ -1,13 +1,7 @@
-<?php
-require_once("sql/conn.php");
-session_start();
-?>
-
 
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style/style.css">
-		<meta charset="UTF-8">
         <title>NoobNice Serverhosting</title>
     </head>
 
@@ -43,23 +37,10 @@ session_start();
 			</div>
 
             <div class="login">
-				
-				<?php if(isset($_SESSION['userLevel'])) {
-					if($_SESSION['userLevel'] > 0) {?>
-					<a class="button" href="admin/admin.php"> Admin </a>
-					<?php } } ?>
                 <!--Login system goes here-->
 
 				<!--Login popup buttton-->
-				<?php if(!isset($_SESSION['username'])) { ?>
-				
-				<a class="button" href="#popup1">Log ind</a>
-				<?php } else {
-					?>
-				<a class="button" href="user/profile.php"> Min Konto </a>
-				<a class="button" href="login/logout.php">Log ud</a>
-				
-				<?php } ?>
+			<a class="button" href="#popup1">Log ind</a>
 			    <!--Login popup box-->
 		<div id="popup1" class="overlay">
 			<div class="popup">
@@ -78,40 +59,39 @@ session_start();
 					<input type="checkbox" checked="checked" name="remember"> Husk mig
 			    </label>			
 				<button type="submit">Log ind</button>
-				</form>
+
 <br> 
 				<h1> Opret bruger </h1>
 
 
 		<details>
-			<summary>Opret bruger</summary>
+			 <summary>Opret bruger</summary>
 
-				<form action="login/register.php" method="POST">
-			    <label for="Fornavn"><b>Fornavn</b></label> 
-			    <input type="text" placeholder="Fornavn" name="fornavn" required> 
-			    <br>
+
+			   <label for="Fornavn"><b>Fornavn</b></label> 
+			   <input type="text" placeholder="Fornavn" name="Fornavn" required> 
+			   <br>
 			    <label for="Efternavn"><b>Efternavn</b></label> 
-			    <input type="text" placeholder="Efternavn" name="efternavn" required> 
-			    <br>
-			    <label for="Brugernavn"><b>Brugernavn</b></label> 
-			    <input type="text" placeholder="Burgernavn" name="brugernavn" required> 
-			    <br>
-			    <label for="email"><b>Email</b></label> 
-			    <input type="email" placeholder="Enter Email" name="email" required> 
-			    <br>
-			    <label for="psw"><b>Password</b></label> 
-			    <input type="password" placeholder="Enter Password" name="psw" required> <br> 
-			    <label for="psw-repeat"><b>Repeat Password</b></label>
-			    <input type="password" placeholder="Repeat Password" name="pswRepeat" required>
-			    <br>
-			    <button type="submit" class="registerbtn">Register</button>
-				</form>
+			   <input type="text" placeholder="Efternavn" name="Fornavn" required> 
+			   <br>
+			   <label for="Brugernavn"><b>Brugernavn</b></label> 
+			   <input type="text" placeholder="Burgernavn" name="Brugernavn" required> 
+			   <br>
+			   <label for="email"><b>Email</b></label> 
+			   <input type="text" placeholder="Enter Email" name="email" required> 
+			   <br>
+			   <label for="psw"><b>Password</b></label> 
+			   <input type="password" placeholder="Enter Password" name="psw" required> <br> 
+			   <label for="psw-repeat"><b>Repeat Password</b></label>
+			   <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			   <br>
+			   <button type="submit" class="registerbtn">Register</button>
 		</details>
 				
 
 
 			
-				
+				</form>
 	    </div> 	 <!--Login popup box ends here-->
 
 				</div>
