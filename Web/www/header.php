@@ -1,18 +1,14 @@
 
 <html>
     <head>
-<<<<<<< HEAD
         <link rel="stylesheet" type="text/css" href="style/style.css">
-=======
 		<meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../style/style.css">
 		
->>>>>>> 7e77db353fc54ea20ac8b3e768ab0435fd60614e
         <title>NoobNice Serverhosting</title>
     </head>
 
     <body>
-<<<<<<< HEAD
 
     <div id="wrapper">
         <header>
@@ -99,7 +95,6 @@
 				</form>
 	    </div> 	 <!--Login popup box ends here-->
 
-=======
 		<div id="wrapper">
 			<header>
 				<!--The header is the box, on the very top of the website.-->
@@ -121,7 +116,6 @@
 					<a class="active" href="#home">Nyheder</a>
 					<a href="#news">Gaming</a>
 					<a href="#contact">Webhost</a>
->>>>>>> 7e77db353fc54ea20ac8b3e768ab0435fd60614e
 				</div>
 				<div class="login">					
 					<?php if(isset($_SESSION['userLevel'])) {
