@@ -20,8 +20,7 @@
                 while ($row = mysqli_fetch_assoc($result)) {
                     if($row['password'] == $hashed) {
                         session_start();
-                        $_SESSION['userLevel'] =  $row['userLevel'];
-                        $_SESSION['id'] = $row['id'];
+                        $_SESSION["id"] = $row['id'];
                         $_SESSION['username'] = $row['username'];
                     }
                 }

@@ -2,9 +2,11 @@ header {
     width: 100%;
     height: 80px;
     float: left;
-    background: #8e9eab; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eaecec, #e2e7ec) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-image: url("https://i.imgur.com/dPXUNib.png");
+
 }
 
 #wrapper {
@@ -16,8 +18,8 @@ header {
 nav {
     height: 42px;
     width: 100%;
-    background-color: grey;
     float: left;
+    background-image: url("https://i.imgur.com/dPXUNib.png");
 }
 
 .topnav {
@@ -29,7 +31,7 @@ nav {
     .topnav a {
         float: left;
         display: block;
-        color: white;
+        color: black;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -57,7 +59,7 @@ nav {
 
 #logo {
 
-    width: 220px;
+    width: 270px;
     height: 100px;
     background-color: green;
     float: left; 
@@ -180,6 +182,7 @@ section {
     background: #403B4A; /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #E7E9BB, #403B4A); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("https://i.imgur.com/m0fJpeZ.png");
 }
 
 
@@ -230,7 +233,7 @@ section {
 .detail {
     height: 250px;
     width: 33.3%;
-    background-color: grey;
+    background-color: white;
     float: left;
 }
 
