@@ -20,6 +20,7 @@
                 while ($row = mysqli_fetch_assoc($result)) {
                     if($row['password'] == $hashed) {
                         session_start();
+                        $_SESSION['userLevel'] = $row['userlevel'];
                         $_SESSION["id"] = $row['id'];
                         $_SESSION['username'] = $row['username'];
                     }
@@ -29,13 +30,6 @@
     }
 
    header("Location: ../index.php")
-        
-
-
-
-		
-
-
-
+    
 ?>
 

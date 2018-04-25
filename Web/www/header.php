@@ -1,7 +1,10 @@
+<?php
+require_once("sql/conn.php");
+session_start();
+?>
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style/style.css">
 		<meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../style/style.css">
 		

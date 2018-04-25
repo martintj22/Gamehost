@@ -1,0 +1,14 @@
+diff a/Web/www/header.php b/Web/www/header.php	(rejected hunks)
+@@ -1,11 +0,7 @@
+-<?php
+-require_once("sql/conn.php");
+-session_start();
+-?>
+-
+ 
+ <html>
+     <head>
++        <link rel="stylesheet" type="text/css" href="style/style.css">
+ 		<meta charset="UTF-8">
+         <link rel="stylesheet" type="text/css" href="../style/style.css">
+ 		
